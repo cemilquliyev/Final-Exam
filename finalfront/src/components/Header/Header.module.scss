@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    .hidr{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        z-index: 1;
+        position: absolute;
+        height: 70px;
+        .eatwel{
+            font-size: 13px;
+            color: white;
+            padding-left: 25px;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 22px;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: rgb(218, 213, 213);
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .hambur{
+            display: none;
+
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+
+    .header{
+    width: 100%;
+    .hidr{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .eatwel{
+            font-size: 13px;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 22px;
+                li{
+                    list-style: none;
+                    display: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .hambur{
+            display: block;
+            
+            svg{
+                font-size: 25px;
+               margin-top: 10px;
+               color: white;
+            }
+        }
+    }
+}
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+    width: 100%;
+    .hidr{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .eatwel{
+            font-size: 13px;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 22px;
+                li{
+                    list-style: none;
+                    display: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+        .hambur{
+            display: block;
+            svg{
+                font-size: 25px;
+               margin-top: 10px;
+               color: white;
+            }
+        }
+    }
+}
+}

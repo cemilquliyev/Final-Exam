@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oursc{
+    width: 100%;
+    .texs{
+        text-align: center;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        h3{
+            color: gray;
+        }
+        h1{
+            font-size: 40px;
+        }
+        p{
+            color: gray;
+            font-size: 20px;
+            width: 550px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .cardBoxes{
+        width: 100%;
+        display: flex;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+        .cardsz{
+            width: 30%;
+            .imgsz{
+                img{
+                    width: 350px;
+                }
+            }
+            .cardtexs{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: orange;
+                }
+                h2{
+                   font-size: 20px;
+                }
+                p{
+                    width: 250px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                button{
+                    width: 30%;
+                    padding: 14px 0;
+                    margin: 0 auto;
+                    background-color:orange;
+                    color: white;
+                }
+            }
+        }
+        .cardszA{
+            width: 30%;
+            .imgsz{
+                img{
+                    width: 350px;
+                }
+            }
+            .cardtexs{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: orange;
+                }
+                h2{
+                   font-size: 20px;
+                }
+                p{
+                    width: 250px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                button{
+                    width: 30%;
+                    padding: 14px 0;
+                    margin: 0 auto;
+                    background-color:orange;
+                    color: white;
+                }
+            }
+        }
+        .cardszB{
+            width: 30%;
+            .imgsz{
+                img{
+                    width: 350px;
+                }
+            }
+            .cardtexs{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: orange;
+                }
+                h2{
+                   font-size: 20px;
+                }
+                p{
+                    width: 250px;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+                button{
+                    width: 30%;
+                    padding: 14px 0;
+                    margin: 0 auto;
+                    background-color:orange;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .oursc{
+        width: 100%;
+        .texs{
+            text-align: center;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            h3{
+                color: gray;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+                width: 250px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+        .cardBoxes{
+            width: 100%;
+            display: flex;
+            padding-top: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardsz{
+                width: 100%;
+                .imgsz{
+                  
+                    img{
+                        width: 90%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszA{
+                width: 100%;
+                .imgsz{
+                    img{
+                        width: 90%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszB{
+                width: 100%;
+                .imgsz{
+                    img{
+                        width: 90%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .oursc{
+        width: 100%;
+        .texs{
+            text-align: center;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            h3{
+                color: gray;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+                width: 250px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+        .cardBoxes{
+            width: 100%;
+            display: flex;
+            padding-top: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardsz{
+                width: 45%;
+                .imgsz{
+                   
+                    img{
+                        width: 45%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszA{
+                width: 45%;
+                .imgsz{
+                    img{
+                        width: 45%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszB{
+                width: 45%;
+                .imgsz{
+                    img{
+                        width: 45%;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .oursc{
+        width: 100%;
+        .texs{
+            text-align: center;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            h3{
+                color: gray;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p{
+                color: gray;
+                font-size: 20px;
+                width: 250px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+        .cardBoxes{
+            width: 100%;
+            display: flex;
+            padding-top: 30px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardsz{
+                width: 30%;
+                .imgsz{
+                    width: 100%;
+                    img{
+                        width: 270px;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszA{
+                width: 30%;
+                .imgsz{
+                    img{
+                        width: 270px;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+            .cardszB{
+                width: 30%;
+                .imgsz{
+                    img{
+                        width: 270px;
+                    }
+                }
+                .cardtexs{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    h3{
+                        color: orange;
+                    }
+                    h2{
+                       font-size: 20px;
+                    }
+                    p{
+                        width: 250px;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+                    button{
+                        width: 30%;
+                        padding: 14px 0;
+                        margin: 0 auto;
+                        background-color:orange;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

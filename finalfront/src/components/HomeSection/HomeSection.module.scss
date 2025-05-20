@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 730px;
+    background-image: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 700px;
+        gap: 20px;
+        h1{
+            font-size: 60px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            width: 10%;
+            padding: 13px 0;
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .container{
+        width: 100%;
+        height: 730px;
+        background-image: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 700px;
+            gap: 20px;
+            margin: 0 auto;
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 15px;
+                width: 200px;
+            }
+            button{
+                width: 30%;
+                padding: 13px 0;
+            }
+        }
+    }
+
+
+    
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .container{
+        width: 100%;
+        height: 730px;
+        background-image: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 700px;
+            gap: 20px;
+            margin: 0 auto;
+            h1{
+                font-size: 42px;
+            }
+            p{
+                font-size: 20px;
+                width: 300px;
+            }
+            button{
+                width: 30%;
+                padding: 13px 0;
+            }
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .container{
+        width: 100%;
+        height: 730px;
+        background-image: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 700px;
+            gap: 20px;
+            margin: 0 auto;
+            h1{
+                font-size: 42px;
+            }
+            p{
+                font-size: 20px;
+                width: 300px;
+            }
+            button{
+                width: 30%;
+                padding: 13px 0;
+            }
+        }
+    }
+}

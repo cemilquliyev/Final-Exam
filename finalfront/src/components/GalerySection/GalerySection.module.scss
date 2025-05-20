@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.galery{
+    width: 100%;
+    .galerytex{
+        text-align: center;
+        padding-top: 30px;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            width: 650px;
+            margin: 0 auto;
+            color: gray;
+        }
+    }
+    .galeryBox{
+        padding-top: 30px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .imgcardm{
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .galery{
+        width: 100%;
+        .galerytex{
+            text-align: center;
+            padding-top: 30px;
+            h1{
+                font-size: 30px;
+               
+            }
+            p{
+                font-size: 20px;
+                width: 270px;
+                margin: 0 auto;
+                color: gray;
+            }
+        }
+        .galeryBox{
+            padding-top: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .imgcardm{
+                width: 100%;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .galery{
+        width: 100%;
+        .galerytex{
+            text-align: center;
+            padding-top: 30px;
+            h1{
+                font-size: 30px;   
+            }
+            p{
+                font-size: 20px;
+                width: 270px;
+                margin: 0 auto;
+                color: gray;
+            }
+        }
+        .galeryBox{
+            padding-top: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .imgcardm{
+                width: 45%;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .galery{
+        width: 100%;
+        .galerytex{
+            text-align: center;
+            padding-top: 30px;
+            h1{
+                font-size: 30px;   
+            }
+            p{
+                font-size: 20px;
+                width: 270px;
+                margin: 0 auto;
+                color: gray;
+            }
+        }
+        .galeryBox{
+            padding-top: 30px;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .imgcardm{
+                width: 30%;
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.velcome{
+    width: 100%;
+    .cardBox{
+        padding-top: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .cardtex{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h3{
+                color: gray;
+            }
+            h1{
+                font-size: 40px;
+            }
+            p{
+                width: 530px;
+                text-align: center;
+                margin: 0 auto;
+                color: gray;
+                font-size: 19px;
+            }
+            button{
+                width: 30%;
+                padding: 19px 0;
+                margin: 0 auto;
+                cursor: pointer;
+            }
+        }
+        .cardimg{
+            width: 40%;
+            img{
+                width: 90%;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .velcome{
+        width: 100%;
+        .cardBox{
+            padding-top: 30px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardtex{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: gray;
+                }
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    width: 250px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: gray;
+                    font-size: 14px;
+                }
+                button{
+                    width: 40%;
+                    padding: 15px 0;
+                    margin: 0 auto;
+                    cursor: pointer;
+                }
+            }
+            .cardimg{
+                width: 100%;
+                img{
+                    width: 90%;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .velcome{
+        width: 100%;
+        .cardBox{
+            padding-top: 30px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardtex{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: gray;
+                }
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    width: 400px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: gray;
+                    font-size: 16px;
+                }
+                button{
+                    width: 30%;
+                    padding: 15px 0;
+                    margin: 0 auto;
+                    cursor: pointer;
+                }
+            }
+            .cardimg{
+                width: 100%;
+                img{
+                    width: 90%;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .velcome{
+        width: 100%;
+        .cardBox{
+            padding-top: 30px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .cardtex{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h3{
+                    color: gray;
+                }
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    width: 500px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: gray;
+                    font-size: 18px;
+                }
+                button{
+                    width: 30%;
+                    padding: 15px 0;
+                    margin: 0 auto;
+                    cursor: pointer;
+                }
+            }
+            .cardimg{
+                width: 100%;
+                img{
+                    width: 90%;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
